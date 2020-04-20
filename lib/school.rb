@@ -21,6 +21,7 @@ class School
       puts grade
       puts students
       students.sort
+      puts students
     end
     
     @roster
