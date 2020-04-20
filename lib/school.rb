@@ -18,6 +18,7 @@ class School
   end
   def sort 
     @roster.keys.sort!
+    puts @roster.values
     @roster.values.each do |students|
       students.sort
     end
