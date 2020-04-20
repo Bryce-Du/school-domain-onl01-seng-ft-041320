@@ -20,6 +20,7 @@ class School
     @roster.map do |grade, students|
       students.sort
     end
+    puts ["Homer Simpson", "Bart Simpson"].sort
     @roster
   end
 end
