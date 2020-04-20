@@ -20,7 +20,7 @@ class School
     @roster.each do |grade, students|
       puts grade
       puts students
-      students.sort
+      students.sort!
       puts students
     end
     
