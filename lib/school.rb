@@ -18,12 +18,8 @@ class School
   end
   def sort 
     @roster.each do |grade, students|
-      puts grade
-      puts students
       students.sort!
-      puts students
     end
-    
     @roster
   end
 end
