@@ -17,11 +17,8 @@ class School
     @roster[grade_level]
   end
   def sort 
-    @roster.keys.sort!
-    puts @roster.values
-    @roster.values.each do |students|
+    @roster.map do |grade, students|
       students.sort
     end
-    @roster
   end
 end
